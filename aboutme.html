@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/html5reset.css">
+	<link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+	<link rel = "shortcut icon" type = "image/jpg" href = "imgs/crest.jpg">
+	<title>Page Creator</title>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-0WLV5T50H0"></script>
+	<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', 'G-0WLV5T50H0');
+	</script>
+</head>
+<body>
+	<header>
+		<img src = "imgs/fullname.png" alt ="fullname" id = "fullname" >
+		<a class = "skip-to-content" href = #main style="color: white; background-color: #512D1E;">Skip to content</a>
+		<nav class = "link">
+			<ul>
+				<li class = "link_item"><a href = "index.html" style="color: white;">About us</a></li>
+				<li class = "link_item"><a href = "personal.html" style="color: white;">History</a></li>
+				<li class = "link_item"><a href = "currentchapter.html" style="color: white;">Current Chapter</a></li>
+				<li class = "link_item" id= "current_page"><a href = "aboutme.html" style="color: white;">Page creator</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main class = "container" id = "main">
+		<div class = "grid-container">
+			<h1 class = "header">Hiram Rodriguez</h1>
+			<img src="imgs/hiram.JPG" type = "image/JPG" class="hiram" alt = "hiram"> 
+			<p class= "paragraph">Hello, my name is Hiram Rodriguez. I am a  senior at the Univserity of Michigan studying Biopsychology, Cognition, and Nueroscience & Information Sciences with a minor in entreprenuership at the School of Information. This is my final portfolio for SI339 - Wedb Design, Development, and Accessibility. I decided to make a small webpage for my fraternity that can be used to show basic information and background. Thank you for stopping by on my page! Feel free to contact me by filling out the form or through my Linkedin.
+				 <br><br> <a class="pub" href= "https://www.linkedin.com/in/hiram-rodriguez-a6a38618a/" style="color: white;">Linkedin</a>
+				 <a class="pub" href= "https://www.instagram.com/hirum_/" style="color: white;">Instagram</a>
+				 <a class="pub" href= "https://github.com/hiramr?tab=repositories" style="color: white;">Github</a>
+				</p>
+			<img src="imgs/resume.png" alt="resume">
+			 <div class = "survey">
+				<form class = "form" action="https://formspree.io/f/mgedeaov" method="post">
+			
+					<label for="fname">First Name</label>
+					<input type="text" id="fname" name="firstname" placeholder="Your name..">
+				
+					<label for="lname">Last Name</label>
+					<input type="text" id="lname" name="lastname" placeholder="Your last name..">
+					
+					<label for="number">Phone Number</label>
+					<input type="text" id="number" name="number" placeholder="(xxx) xxx-xxxx">
+					
+					<label for="email">Email</label>
+					<input type="text" id="email" name="email" placeholder="johndoe@domain.xxx">
+
+					<label for="method">Preferred Method of Communication</label>
+					<select id="method" name="method">
+						<option value="phone">Phone Call (rates may still apply)</option>
+						<option value="email">Email</option>
+						<option value="text">Text Message</option>
+					</select>
+					
+					<label for="reason">Reason for contact</label>
+					<select id="reason" name="reason">
+						<option value="interest">Interested in Lambda Theta Phi</option>
+						<option value="personal">Personal Inquires</option>
+						<option value="Appointment">Booking Appointment</option>
+					</select>
+
+					<label for="subject">Subject</label>
+					<textarea id="subject" name="subject" placeholder="Write more information.." style="height:200px"></textarea>
+				
+					<input type="submit" value="Submit">
+				</form>
+			</div>
+		</div>  
+	</main>
+
+	<footer>
+		<img src = "imgs/1975.png" type = "img/png" alt = "alphaomicron" class = "ao">
+		<p class = "footer-text">Hiram Rodriguez SI 339 Final Portfolio 2021</p>
+	</footer>
+</body>
+</html>
