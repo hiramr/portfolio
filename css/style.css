@@ -1,0 +1,22 @@
+.hiram{
+    opacity: 75%;
+}
+
+.homepage{
+    opacity: 95%;
+    background: #00274c;
+}
+
+#main{
+    background-color: white;
+    background-image: url("../imgs/hiram.JPG");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+header{
+    background-color: #00274c;
+    padding: 40px;
+}
+
