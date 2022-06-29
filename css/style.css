@@ -15,6 +15,11 @@
     background-attachment: fixed;
 }
 
+.navbar{
+    display: flex;
+    felx-direction: row;
+}
+
 header{
     background-color: #00274c;
     padding: 40px;
